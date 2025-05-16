@@ -8,6 +8,16 @@
     font-optical-sizing: auto;
 }
 
+body {
+    background-color: #181A1B;
+    color: #E8E6E3;
+}
+
+a:link { color: lightskyblue; }
+a:visited { color: #6d4b8d; }
+a:hover { color: #ffffff; }
+a:active { color: #ff4040; text-decoration:none; font-weight:normal; }
+
 .main-container {
     width: 80vw;
     margin-left: auto;
@@ -20,6 +30,13 @@
     text-align: center;
 }
 
+#banner-image {
+    max-width: 90vw;
+    max-height: 40vh;
+    border-radius: 1rem;
+}
+
 #discord-button {
     border-radius: 1rem;
+    max-width: 90vw;
 }
